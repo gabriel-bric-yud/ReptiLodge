@@ -1,0 +1,101 @@
+body {
+  background-color:white;
+  margin: 0px;
+  background: linear-gradient(black,black,green, green);
+  height: fit-content;
+  height: 100vmax;
+}
+
+* {
+  font-family: "Tektur";
+  /**touch-action: none; */
+}
+
+
+.titleDiv {
+  display: grid;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 0px;
+  color: white;
+  text-align: center;
+  z-index: 1000;
+}
+  
+.titleDiv a {
+  margin: 0 auto;
+  font-family: "Tektur", system-ui;
+  color: Green;
+  font-size: 3em ;
+  text-decoration: none;
+}
+
+
+#dataDisplay {
+  display: grid;
+  justify-content: center;
+  color: red;
+  width: 420px;
+  max-width: 90vw;
+  min-height: 200px;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.2em;
+
+}
+
+#dataDisplay div {
+  margin: 20px auto;
+}
+
+.highlight {
+  color: yellow !important;
+}
+
+
+.btn {
+  background-color: #47F5A1;
+  color: black;
+  text-align: center;
+  max-width: 180px;
+  margin: 20px auto;
+}
+
+
+.logo {
+  background-image: url(images/geckoblue.png);
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+
+
+
+@media (min-width: 749px) {
+  
+
+  .titleDiv a {
+    font-size: 5em ;
+  } 
+
+
+  
+  .btn {
+    padding: 40px;
+    max-width: 180px;
+    margin: 20px auto;
+    font-size: 25px;
+  }
+
+  #dataDisplay {
+    font-size: 22px;
+  }
+  
+
+  
+}
+
+
