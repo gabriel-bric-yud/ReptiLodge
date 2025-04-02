@@ -62,7 +62,7 @@ body {
 }
 
 
-.logo {
+.geck {
   background-image: url(images/geckoblue.png);
   width: 200px;
   height: 200px;
@@ -71,7 +71,15 @@ body {
   margin: 0 auto;
 }
 
-
+.logo {
+  background-image: url(images/reptilodgeLogo.png);
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
 
 
 @media (min-width: 749px) {
